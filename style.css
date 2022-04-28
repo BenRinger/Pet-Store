@@ -1,3 +1,4 @@
+
 .main{
     padding-top: 60px;
 }
@@ -5,9 +6,69 @@
     text-decoration: none;
 }
 hr{
-  width: 65%;
+    display: flex;
+    width: 65%;
+    align-self: center;
 }
 .sectionGroup{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.aboutImg{
+    display: flex;
+    /* justify-content: space-around; */
+    max-height: 300px;
+}
+.login{
+    margin-top: 12px;
+}
+.newsletter{
+    margin-top: 50px;
+}
+
+.card{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.newsLetter{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.input{
+    margin-top: 10px
+}
+.aboutText{
+    display: flex;
+    align-items: center;
+}
+.aboutSect{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: space-evenly;
+}
+.buyButton{
+/* margin-left: 35%; */
+text-align: center;
+}
+.break{
+    /* margin-left: 230px */
+}
+.history{
+    background: linear-gradient(45deg, #88a2d4 50%, #cebf8c 50%);
+}
+.aboutWalk{
+    background: linear-gradient(135deg, #cebf8c 50%, #88a2d4 50%);
+}
+.aboutEd{
+    background: linear-gradient(45deg, #88a2d4 50%, #cebf8c 50%);
+}
+.petSect{
+    background: linear-gradient(45deg, #88a2d4 50%, #cebf8c 50%);
+}
+.toySect{
+    background: linear-gradient(135deg, #cebf8c 50%, #88a2d4 50%);
+}
+.servSect{
+    background: linear-gradient(45deg, #88a2d4 50%, #cebf8c 50%);
+}
+
