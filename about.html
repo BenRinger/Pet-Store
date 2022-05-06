@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,77 +11,91 @@
     <link rel="shortcut icon" href="./img/petStoreLogo.png" type="image/x-icon">
     <title>About</title>
 </head>
+
 <body>
 
     <nav class="navbar bg-dark fixed-top">
-        <ul class="navbar-nav container-fluid d-flex flex-row col-4">
+        <ul class="navbar-nav container-fluid d-flex flex-row col-lg-4 col-md-3 col-sm-2">
             <li class="navbar-brand"><a href="./index.html" class="text-white links">Animal Actuarys</a></li>
+            <li class=""><a href="./app.js" class="text-white links">Shop</a></li>
             <li class=""><a href="./about.html" class="text-white links">About us</a></li>
             <li class=""><a href="./contact.html" class="text-white links">Contact</a></li>
         </ul>
-        <div class="container-fluid col-5">
+        <div class="container-fluid col-lg-4 col-md-3 col-sm-2 justify-content-end">
+            <div>
             <p class="text-light login">Login</p>
             <input type="email" name="email" id="email" placeholder="Email">
             <input type="password" name="password" id="password" placeholder="Password">
+        </div>
         </div>
     </nav>
     <main class="main">
 
         <div class="container-fluid history">
-            <div class="d-flex flex-row aboutSect">
+            <div class="d-flex flex-row">
                 <div class="col-4">
-                <h6 class="aboutText ">History</h6>
-                <p class="aboutText">We have been providing the best in service for Training, Walking of animals, and Education of animal care.</p>
+                    <h6 class="aboutText ">History</h6>
+                    <p class="aboutText">We have been providing the best in service for Training, Walking of animals,
+                        and Education of animal care.</p>
                 </div>
                 <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
             </div>
         </div>
         <div class="container-fluid aboutWalk">
-            <div class="d-flex flex-row aboutSect">
+            <div class="d-flex flex-row">
                 <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
                 <div class="col-4">
-                <h6 class="aboutText ">About our Walkers</h6>
-                <p class="aboutText">We have been providing the best in service for Training, Walking of animals, and Education of animal care.</p>
+                    <h6 class="aboutText aboutTitle">About our Walkers</h6>
+                    <p class="aboutText aboutTitle">The walking portion of our business closes at 4pm.</p>
                 </div>
             </div>
         </div>
-        <div class="container-fluid aboutEd">
-            <div class="d-flex flex-row aboutSect">
+        <div class="container-fluid aboutGroom d-flex justify-content-center">
+            <div class="d-flex flex-row">
                 <div class="col-4">
-                <h6 class="aboutText ">Get to know the educators</h6>
-                <p class="aboutText">We have been providing the best in service for Training, Walking of animals, and Education of animal care.</p>
+                    <h6 class="aboutText ">About our Groomers</h6>
+                    <p class="aboutText">Our Groomers are experienced and caring, will listen and adhear to special
+                        requests as best as we can.</p>
                 </div>
                 <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
             </div>
         </div>
-
-
-    <footer class="page-footer bg-primary d-flex flex-row">
-
-        <div class="col-4 text-center newsLetter">
-            <h6>Store Hours</h6>
-            <ul>
-                <li>M-T 10AM - 10PM</li>
-                <li>Fri 10AM - 11PM</li>
-                <li>Sat 10AM - 11PM</li>
-                <li>Sun 10AM - 10PM</li>
-            </ul>    
+        <div class="container-fluid aboutWalk">
+            <div class="d-flex flex-row">
+                <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
+                <div class="col-4">
+                    <h6 class="aboutText aboutTitle">About our DayCare</h6>
+                    <p class="aboutText aboutTitle">Our Daycare has the same hours as the store.</p>
+                </div>
+            </div>
         </div>
+        
+        <footer class="page-footer d-flex flex-row webFoot">
 
-        <div class="col-4 text-center align-itmes-center">
-            <p class="newsLetter">Sign Up for our News Letter</p>
-            <input type="email" name="email" id="email" placeholder="Email" class="input">
-        </div>
+            <div class="col-4 text-center newsLetter text-white">
+                <h6>Store Hours</h6>
+                <ul class="">
+                    <li>M-T 10AM - 10PM</li>
+                    <li>Fri 10AM - 11PM</li>
+                    <li>Sat 10AM - 11PM</li>
+                    <li>Sun 10AM - 10PM</li>
+                </ul>
+            </div>
 
-        <div class="col-4 text-center newsLetter">
-            <h6>Locations</h6>
-            <ul>
-                <li>5300 Cornell Rd</li>
-                <li>4381 Montgomery Rd</li>
-                <li>2530 Groomes Rd</li>
-            </ul>
-        </div>
-    </footer>
+            <div class="col-4 text-center align-itmes-center text-white">
+                <p class="newsLetter">Sign Up for our News Letter</p>
+                <input type="email" name="email" id="email" placeholder="Email" class="input">
+            </div>
+
+            <div class="col-4 text-center newsLetter text-white">
+                <h6>Locations</h6>
+                <ul>
+                    <li>5300 Cornell Rd</li>
+                    <li>4381 Montgomery Rd</li>
+                    <li>2530 Groomes Rd</li>
+                </ul>
+            </div>
+        </footer>
 
 </body>
 </html>
