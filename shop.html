@@ -9,23 +9,32 @@
 </head>
 <body>
     
-    <nav class="navbar bg-dark fixed-top">
-        <ul class="navbar-nav container-fluid d-flex flex-row col-lg-4 col-md-3 col-sm-2">
-            <li class="navbar-brand"><a href="./index.html" class="text-white links">Animal Actuarys</a></li>
-            <li class=""><a href="./app.js" class="text-white links">Shop</a></li>
-            <li class=""><a href="./about.html" class="text-white links">About us</a></li>
-            <li class=""><a href="./contact.html" class="text-white links">Contact</a></li>
-        </ul>
-        <div class="container-fluid col-lg-4 col-md-3 col-sm-2 justify-content-end">
-            <div>
-            <p class="text-light login">Login</p>
-            <input type="email" name="email" id="email" placeholder="Email">
-            <input type="password" name="password" id="password" placeholder="Password">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">Pet Palace</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./app.js">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        </div>
-    </nav>
+      </nav>
 
-<div id="market">
+<div id="market"></div>
 
 <div class="petSect">
             <h1 class="text-center">Pets</h1>
@@ -165,7 +174,7 @@
         </div>
     </div>
 
-</div>
+
 
 
 <footer class="page-footer d-flex flex-row webFoot">

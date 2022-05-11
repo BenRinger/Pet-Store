@@ -14,62 +14,82 @@
 
 <body>
 
-    <nav class="navbar bg-dark fixed-top">
-        <ul class="navbar-nav container-fluid d-flex flex-row col-lg-4 col-md-3 col-sm-2">
-            <li class="navbar-brand"><a href="./index.html" class="text-white links">Animal Actuarys</a></li>
-            <li class=""><a href="./app.js" class="text-white links">Shop</a></li>
-            <li class=""><a href="./about.html" class="text-white links">About us</a></li>
-            <li class=""><a href="./contact.html" class="text-white links">Contact</a></li>
-        </ul>
-        <div class="container-fluid col-lg-4 col-md-3 col-sm-2 justify-content-end">
-            <div>
-            <p class="text-light login">Login</p>
-            <input type="email" name="email" id="email" placeholder="Email">
-            <input type="password" name="password" id="password" placeholder="Password">
-        </div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">Pet Palace</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./app.js">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
+
     <main class="main">
 
-        <div class="container-fluid history">
-            <div class="d-flex flex-row">
-                <div class="col-4">
-                    <h6 class="aboutText ">History</h6>
-                    <p class="aboutText">We have been providing the best in service for Training, Walking of animals,
-                        and Education of animal care.</p>
-                </div>
-                <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
-            </div>
-        </div>
-        <div class="container-fluid aboutWalk">
-            <div class="d-flex flex-row">
-                <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
-                <div class="col-4">
-                    <h6 class="aboutText aboutTitle">About our Walkers</h6>
-                    <p class="aboutText aboutTitle">The walking portion of our business closes at 4pm.</p>
+        <div class="aboutContainer">
+            <div class="card aboutCard">
+                <div class="card-body">
+                    <h6 class="text-center">History</h6>
+                    <img src="" alt="" class="card-img-top">
+                    <p class="">We have been providing the best in service for Training, Walking of animals,
+                        and Education of animal care for 25 years. Our team is made up of highly motivated, skilled, and caring people to give your pets the best expericence they can have.</p>
                 </div>
             </div>
         </div>
-        <div class="container-fluid aboutGroom d-flex justify-content-center">
-            <div class="d-flex flex-row">
-                <div class="col-4">
-                    <h6 class="aboutText ">About our Groomers</h6>
-                    <p class="aboutText">Our Groomers are experienced and caring, will listen and adhear to special
-                        requests as best as we can.</p>
-                </div>
-                <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
-            </div>
-        </div>
-        <div class="container-fluid aboutWalk">
-            <div class="d-flex flex-row">
-                <img src="./img/dogGroomer.png" alt="Dog groomer" class="aboutImg col-4">
-                <div class="col-4">
-                    <h6 class="aboutText aboutTitle">About our DayCare</h6>
-                    <p class="aboutText aboutTitle">Our Daycare has the same hours as the store.</p>
+
+
+        <div class="aboutContainer">
+            <div class="card aboutCard">
+                <div class="card-body">
+                    <h6 class="text-center">About our Walkers</h6>
+                    <img src="./img/dogWalker.jpg" alt="Dog Walker" class="card-img-top">
+                    <p class=" aboutTitle">Our walkers are highly trained to deal with many different types and sizes of
+                        animals. Walk times range from 30 mins to 1 hour 30mins, we recommend the longer walks for dogs
+                        that dont get enough activiy otherwise, and dogs that are really active. Prices vary by size,
+                        breed, and walk length.</p>
                 </div>
             </div>
         </div>
-        
+
+
+        <div class="aboutContainer">
+            <div class="card aboutCard">
+                <div class="card-body">
+                    <h6 class="text-center">About our Groomers</h6>
+                    <img src="./img/dogGroomer.png" alt="Dog groomer" class="card-img-top">
+                    <p class="aboutText">From a simple bath, to head-to-paw pampering – we’ll have your pet looking and
+                        feeling fabulous in no time! Our prices vary by size and breed. Call for a custom quote or to
+                        make an appointment. Please ensure vaccinations are up to date.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="aboutContainer">
+            <div class="card aboutCard">
+                <div class="card-body">
+                    <h6 class="text-center">About our DayCare</h6>
+                    <img src="./img/dogDayCare.jpg" alt="" class="card-img-top">
+                    <p class="aboutText"> All dogs that attend The Pet Palace daycare have completed an evaluation to ensure they are a good fit for our daycare pack. Furthermore, all dogs must be current on all shots including bordatella, and must be on appropriate flea control and worming medicines. We do everything possible to ensure that your dog has a clean, safe, and fun environment to play.</p>
+                </div>
+            </div>
+        </div>
+
         <footer class="page-footer d-flex flex-row webFoot">
 
             <div class="col-4 text-center newsLetter text-white">
@@ -98,4 +118,5 @@
         </footer>
 
 </body>
+
 </html>

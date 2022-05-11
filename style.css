@@ -1,6 +1,6 @@
 
 .main{
-    padding-top: 90px;
+    
 }
 .links{
     text-decoration: none;
@@ -10,13 +10,20 @@ hr{
     width: 65%;
     align-self: center;
 }
+.homeImg{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.homeCard{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 .sectionGroup{
     margin-top: 10px;
-}
-.aboutImg{
-    display: flex;
-    /* justify-content: space-around; */
-    max-height: 300px;
 }
 .login{
     margin-top: 12px;
@@ -37,21 +44,30 @@ hr{
 .input{
     margin-top: 10px
 }
-.aboutText{
-    display: flex;
-    align-items: center;
+.aboutContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-.aboutSect{
-    padding-top: 120px;
-    padding-bottom: 120px;
-   justify-content: center;
+.aboutCard{
+  max-width: 75%;
 }
+.aboutTitle{
+    justify-content: right;
+}
+
+.aboutImg{
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .buyButton{
 /* margin-left: 35%; */
 text-align: center;
-}
-.break{
-    /* margin-left: 230px */
 }
 .webFoot{
     background-color: #000080;
@@ -71,9 +87,7 @@ ul{
     top: 60px;
 
 }
-.aboutTitle{
-    justify-content: right;
-}
+
 body{
     background-image: url(./img/pawPaper.jpg);
     background-size: cover;
@@ -82,7 +96,7 @@ body{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 750px;
   position: relative;
   margin: auto;
 }
@@ -129,16 +143,6 @@ body{
   width: 100%;
   text-align: center;
 }
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -148,7 +152,7 @@ body{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.5s ease;
 }
 
 .active, .dot:hover {
@@ -158,10 +162,14 @@ body{
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.95s;
 }
 
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
+@media only screen and (max-width:400px){
+
+}
+
