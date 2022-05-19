@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="text/javascript" href="./app.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="shop.css">
     <title>Document</title>
 </head>
 <body>
     
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
+        
         <a class="navbar-brand" href="./index.html">Pet Palace</a>
       
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="./app.js">Shop</a>
+              <a class="nav-link" href="./shop.html">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./about.html">About</a>
@@ -34,177 +33,46 @@
         </div>
       </nav>
 
-<div id="market"></div>
-
-<div class="petSect">
-            <h1 class="text-center">Pets</h1>
-        <div class="d-flex justify-content-center sectionGroup">
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/dogTilt.jpg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>This is a Dog</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $350</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/dogStare.jpg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>This is a Dog you should probably adopt him</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $375</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/smallDog.jpg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>This is a dog</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $500</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center sectionGroup">
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/catHunt.jpg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>This is a Cat</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $75</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/coolCat.jpg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>This is a cat</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $125</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/layingCat.jpeg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>This is a cat</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $175</button>
-                </div>
-            </div>
-        </div>
+<div class="container">
+    <div class="shop-container" id ="market">
     </div>
-        
-
-    <div class="toySect">
-        <h1 class="text-center">Toys</h1>
-        <div class="d-flex justify-content-center sectionGroup">
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <div class="card-body text-center">
-                    <img src="https://img.chewy.com/is/image/catalog/213820_MAIN._AC_SL600_V1590069361_.jpg" alt="Plush HotDog" class="container-fluid">
-                    <p>Classic hotdog design that’s great for tailgates and backyard barbecues. Soft, fabric cover that your dog will love to cuddle up with and hold onto.</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $5.99</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <div class="card-body text-center">
-                    <img src="./img/dogToyDog.jpg" alt="Rubber Bone" class="container-fluid">
-                    <h6>Plush Dog</h6>
-                    <p>This plush toy encourages chewing on other dogs.</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $9.99</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <div class="card-body text-center">
-                    <img src="./img/toyMonkey.avif" alt="" class="container-fluid">
-                    <h6>Goin' Bananas Monkey</h6>
-                    <p>Our adorable plush monkey loves swinging, being tickled and most of all... bananas. </p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $14.99</button>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center sectionGroup">
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <div class="card-body text-center">
-                    <img src="./img/fatOrangeCatPlush.jpg" alt="fatOrangeCatPlush" class="container-fluid">
-                    <h6>Fat Orange Cat Plush</h6>
-                    <p>11.8Inch Lifelike Yellow Tabby Cat Kitty Toy Kids Children Xmas Birthday Gifts</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $19.99</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <div class="card-body text-center">
-                    <img src="./img/kongToy.webp" alt="KongToy" class="container-fluid">
-                    <h6>Kong</h6>
-                    <p>The KONG Classic is the gold standard of dog toys and has become the staple for dogs around the world for over forty years.</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $12.99</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <div class="card-body text-center">
-                    <img src="./img/tacoToy.jpg" alt="Taco Plush Toy" class="container-fluid">
-                    <h6>Taco Plush</h6>
-                    <p>Plush toy is perfect for getting your dog in on the Taco Tuesday festivities.
-                    Soft, fabric cover and plush stuffing inside make this toy great for snuggling.
-                    Squeaker-stuffed for interactive and solo playtime fun.
-                   </p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $5.10</button>
-                </div>
-            </div>
-        </div>
-    </div>
-        
-
-    <div class="servSect">
-    <h1 class="text-center">Services</h1>
-        <div class="d-flex justify-content-center sectionGroup">
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/dogWalking.jpg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>Dog Walking</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $30</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/dogTraining.avif" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>Pet Training</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $200</button>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="./img/animalEd.jpg" alt="" class="container-fluid card-img-top">
-                <div class="card-body text-center">
-                    <p>Animal Education</p>
-                    <button type="button" class="buyButton btn btn-outline-primary">Buy $75 a class</button>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 
 
+<footer class="text-white"> 
+  <div class="footerInfo">
+  <div class="newsLetter text-center">
+     <p>Sign Up for our News Letter</p>
+      <input type="email" name="email" id="email" placeholder="Email" class="input">
+  </div>
+  <div class="storeHours ">
+      <h6 class="text-center">Store Hours</h6>
+          <div class="text-center">
+              <p>M-T 10AM - 10PM</p>
+              <p>Fri 10AM - 11PM</p>
+              <p>Sat 10AM - 11PM</p>
+              <p>Sun 10AM - 10PM</p>
+          </div> 
+  </div>
 
-
-<footer class="page-footer d-flex flex-row webFoot">
-
-    <div class="col-4 text-center newsLetter text-white">
-        <h6>Store Hours</h6>
-        <ul class="">
-            <li>M-T 10AM - 10PM</li>
-            <li>Fri 10AM - 11PM</li>
-            <li>Sat 10AM - 11PM</li>
-            <li>Sun 10AM - 10PM</li>
-        </ul>    
-    </div>
-
-    <div class="col-4 text-center  text-white">
-        <div class="align-itmes-center">
-        <p class="newsLetter">Sign Up for our News Letter</p>
-        <input type="email" name="email" id="email" placeholder="Email" class="input">
-    </div>
-    </div>
-
-    <div class="col-4 text-center newsLetter text-white">
-        <h6>Locations</h6>
-        <ul>
-            <li>5300 Cornell Rd</li>
-            <li>4381 Montgomery Rd</li>
-            <li>2530 Groomes Rd</li>
-        </ul>
-    </div>
+  <div class="locations ">
+      <h6 class="text-center">Locations</h6>
+      <div class="text-center">
+          <p>5300 Cornell Rd</p>
+          <p>4381 Montgomery Rd</p>
+          <p>2530 Groomes Rd</p>
+          <p>6217 East Kemper Rd</p>
+      </div>
+  </div>
+</div>
 </footer>
+
+<script src="./app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </body>
 </html>

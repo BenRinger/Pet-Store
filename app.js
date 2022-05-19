@@ -1,54 +1,107 @@
-import { arrayOf } from "prop-types"
 
 var shop = [
-    {
-      title: 'Tigers',
-      image: './img/gerbile.jpg',
-      price: '$7,500-15,000',
-      description: ''
-    },
+  {
+    title: 'Dog',
+    image: './img/dogTilt.jpg',
+    price: 350,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Dog',
+    image: './img/dogStare.jpg',
+    price: 500,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Dog',
+    image: './img/smallDog.jpg',
+    price: 375,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Cat',
+    image: './img/catHunt.jpg',
+    price: 100,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Cat',
+    image: './img/coolCat.jpg',
+    price: 125,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Cat',
+    image: './img/layingCat.jpeg',
+    price: 175,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Toy',
+    image: 'https://img.chewy.com/is/image/catalog/213820_MAIN._AC_SL600_V1590069361_.jpg',
+    price: 12,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Toy',
+    image: './img/dogToyDog.jpg',
+    price: 15,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Toy',
+    image: './img/toyMonkey.avif',
+    price: 17,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Toy',
+    image: './img/toyHammer.webp',
+    price: 10,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Toy',
+    image: './img/kongToy.webp',
+    price: 20,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  },
+  {
+    title: 'Toy',
+    image: './img/tacoToy.jpg',
+    price: 15,
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  }
+
+   ]
     
-  
     
-    ]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     var postHTML = " "
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  
-    for (var i=0; i < arr.length ; i++){
-        var heading = '<div class="product"' + '"><span>" "<h5>"' + shop[i].title + '</h5>'
-        var image = '<img src="./"' + shop[i] + '"/>'
-        var price = '<p> $' + shop.price + '</p></span>'
-        var description = '<div class=""><p>'+ shop.description + '</p><button type="button" class="btn btn-warning"> add to cart</button></div></div>'
-        var concatThis = heading + image + price + description;
+
+    var postHTML = " "
+    for (var i=0; i < shop.length; i++){
+        var heading = "<div class='product'><span><h4>" + shop[i].title + "</h4>"
+        var image = '<img src="' + shop[i].image + '"/'
+        var price = "<p> $" + shop[i].price + "</p></span>"
+        var description = '<div class=""><p>'+ shop[i].description + '</p><button class="btn btn-success">Add to Cart</button></div></div>'
+        var concatThis = heading + image + price + description
         postHTML = postHTML + concatThis
-    }
-    document.getElementById('market').innerHTML = postHTML
-  
+  }
+  document.getElementById('market').innerHTML = postHTML

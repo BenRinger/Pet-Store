@@ -1,0 +1,50 @@
+/* Body */
+img{
+    max-width: 120px;
+    height: 120px;
+}
+.shop-container{
+    display: flex;
+    direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product{
+    text-align: center;
+    width: 150px;
+    background-color: slategrey;
+    margin: 20px;
+    border-radius: 10%;
+}
+h4 {
+	font-size: 25px;
+	color:white;
+}
+.btn{
+    margin-bottom: 5px;
+}
+
+body {
+	background: url(./img/pawPaper.jpg);
+}
+
+/* Footer */
+footer{
+    justify-content: space-around;
+    background-color: #3f3f50;
+}
+.footerInfo{
+  justify-content: space-around;
+}
+p{
+color:white;
+}
+.locations{
+    padding-bottom: 7px;
+}
+@media only screen and (min-width:768px){
+    .footerInfo{
+      display: flex;
+      flex-direction: row;
+    }
+  }
